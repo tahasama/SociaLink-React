@@ -1,0 +1,79 @@
+.topBar {
+  background-color: rgb(67, 127, 218);
+  height: 8vh;
+  width: 100%;
+  box-shadow: 1px 1px 10px rgb(118, 160, 112);
+  display: flex; /* distribute element inside this div horizontally "by default" */
+  align-items: center;
+  position: sticky; /* keep topbar showing when scroll */
+  top: 0; /* keep topbar at top */
+  z-index: 999;
+}
+
+.topBarLeft {
+  /* background-color: crimson; */
+  flex: 3;
+}
+.logo {
+  font-size: 32px;
+  margin-left: 30px;
+  font-weight: 600;
+  color: rgb(228, 241, 252);
+  cursor: pointer;
+}
+.topBarCenter {
+  /* background-color: darkgoldenrod; */
+  flex: 5; /* double part than left, right */
+  position: relative;
+}
+.search {
+  width: 98%;
+  height: 30px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+  margin: 5px;
+}
+.searchIcon {
+  font-size: 20px !important; /* important overrides value */
+  margin-left: 5px;
+  cursor: pointer;
+}
+.searchInput {
+  border: none;
+  outline-style: none;
+  width: 90%;
+}
+.topBarRight {
+  /* background-color: darkgreen; */
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: rgb(230, 228, 253);
+}
+
+.link {
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.icon {
+  margin: 5px 20px 0px 0px;
+  cursor: pointer;
+}
+.profileImage {
+  margin-top: 2px;
+  margin-right: 0px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover; /* change image fitting so it doesnt loose quality*/
+  cursor: pointer;
+}

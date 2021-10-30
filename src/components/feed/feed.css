@@ -1,0 +1,7 @@
+.feeds {
+  /* background-color: springgreen; */
+  flex: 6;
+}
+.feed {
+  padding: 20px;
+}

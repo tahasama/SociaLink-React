@@ -1,0 +1,13 @@
+create project with command npx create-react-app . // to be in the same directory
+clean up the unused files
+choose a font fron google fonts here i used Roboto Slab
+add it to index.html before title and add a link to css file style.css in same directory
+add font-family given by google fonts in css file
+install Material UI for icons npm install @mui/icons-material and npm install @mui/material
+may also need npm install @emotion/react and npm install @emotion/styled
+
+keep the navbar showing when scroll: position: sticky; top: 0;
+create components:
+    create top bar or navbar
+    create side bar left/right (use flex) 
+create a landingpage (homepage)

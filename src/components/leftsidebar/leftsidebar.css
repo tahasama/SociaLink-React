@@ -1,0 +1,52 @@
+.leftsidebar {
+  /* background-color: rgb(223, 224, 224); */
+  flex: 2.5;
+  height: 150vh;
+  overflow-y: scroll;
+  scrollbar-width: auto;
+  scrollbar-color: #dad7d7 #f8f8f8;
+}
+
+.leftsidebarlist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+.leftsidebaritem {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  cursor: pointer;
+}
+/* .leftsidebartextitem {
+  margin-top: 1px;
+} */
+.leftsidebaricon {
+  margin-right: 10px;
+}
+.leftsidebarbutton {
+  width: 150px;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin-left: 60px;
+  box-shadow: 3px 6px 15px rgb(151, 151, 151);
+  cursor: pointer;
+}
+.leftsidebarbutton:active {
+  box-shadow: 1 5px #666;
+  transform: translateY(1px);
+  /* transform: scale(0.98); */
+}
+
+.friendlist {
+  list-style: none;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.leftsidebarhr {
+  margin: 20px;
+}

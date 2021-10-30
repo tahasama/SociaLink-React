@@ -1,0 +1,12 @@
+.friend {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.friendimg {
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  object-fit: cover;
+}

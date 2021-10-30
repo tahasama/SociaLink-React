@@ -1,0 +1,86 @@
+.rightsidebars {
+  /* background-color: slategray; */
+  flex: 3.5;
+}
+.rightsidebar {
+  padding: 10px 20px 0 0;
+}
+.birthday {
+  display: flex;
+  align-items: center;
+}
+.birthdayimg {
+  height: 80px;
+}
+.birthdaytxt {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 17px;
+}
+.social {
+  position: relative;
+}
+.socialimg {
+  height: 210px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+.socialtxt1 {
+  position: absolute;
+  color: rgb(245, 236, 236);
+  right: 200px;
+  margin: 10px;
+  font-size: 20px;
+}
+.socialtxt2 {
+  position: absolute;
+  color: rgb(245, 236, 236);
+  right: 10px;
+  top: 170px;
+  margin: 10px;
+  font-size: 20px;
+}
+.rightbarTitle {
+  margin: 20px 0px 0px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.rightbarInfo {
+  margin-bottom: 30px;
+}
+
+.rightbarInfoItem {
+  margin-bottom: 10px;
+}
+
+.rightbarInfo {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+
+.rightbarInfoValue {
+  font-weight: 300;
+}
+
+.rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap; /*transform a line of items into a grid*/
+  justify-content: space-between;
+}
+
+.rightbarFollowing {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rightbarFollowingImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
